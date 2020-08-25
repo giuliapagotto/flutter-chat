@@ -25,7 +25,7 @@ class _ChatPageState extends State<ChatPage> {
     scrollController = ScrollController();
     //Creating the socket
     socketIO = SocketIOManager().createSocketIO(
-      'https://real-chat-1234.herokuapp.com',
+      'https://be-safe-server.herokuapp.com/',
       '/',
     );
     //Call init before doing anything with socket
